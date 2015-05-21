@@ -1,0 +1,33 @@
+<html>
+	<head> 
+		<link rel="stylesheet" type="text/css" href="capa.css">
+		<title>Run Racoon!</title>
+	</head>
+	<body>
+		<div class="capaTitulo">
+			<h1>RUN RACOON!</h1>
+			<hr>
+		</div>
+		<div class="Micapa">
+			<img src="Recess.jpeg">
+			<hr>
+			<input list="letras">
+				<datalist id="letras">
+					<option value=a>
+					<option value=b>
+				</datalist>
+			<input type="range" max="50" min="0" step="1">
+			
+			<audio controls  src="a.mp3" type="audio/mpeg">
+			</audio>
+			
+			<table border="1px solid @000">
+			<tr>
+			<td>A</td><td>B</td>
+			</tr>
+			<tr>
+			<td colspan="2">A</td>
+			</tr>
+		</div>
+	</body>
+</html>
